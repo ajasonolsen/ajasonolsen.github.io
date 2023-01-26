@@ -1,0 +1,97 @@
+h1 {
+    color: rgb(76,5,149); 
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 30%; height: 30%
+}
+
+body {background-color: rgb(35, 156, 136);}
+
+h1 {
+  font-size: 60px;
+}
+
+p.b {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+head {
+  line-height: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: monaco, monospace;
+}
+
+h2 {
+  font-family: monaco, monospace;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p
+{
+  font-family: Arial, helvetica sans-serif;
+}
+
+ul
+{
+  font-family: Arial, helvetica sans-serif;
+}
+
+ul {list-style-type: square;
+}
+
+p {
+  width: 50%;
+  border: 6px solid red; 
+}
+
+ul {
+  color: darkslateblue;
+}
+
+ul:visited { 
+  color: whitesmoke;
+}
+
+ul:hover { 
+  background-color: lightskyblue;
+}
+
+body {
+  background-image: url(../images/madMag.png);
+  background-repeat: no-repeat;
+}
+
+border: 2px solid black;
+  padding: 25px;
+  background-repeat: space;
+}

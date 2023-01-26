@@ -1,0 +1,36 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url(../images/subtleGrungeBg.png);
+    background-repeat: initial;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+header, footer {
+    
+    text-align: right;
+}
+
+.row {
+    padding-bottom: 2rem;
+}
+
+h1#headerName {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 600px){
+    
+    header {
+        text-align: center;
+    }
+}

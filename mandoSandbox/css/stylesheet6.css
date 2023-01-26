@@ -1,0 +1,109 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url(../images/subtleGrungeBg.png);
+    background-repeat: initial;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+header, footer {
+    
+    text-align: right;
+}
+
+.row {
+    padding-bottom: 2rem;
+}
+
+h4 {
+    
+    transition: color 2s;
+    
+}
+
+h1#headerName {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    transition: color 2s;
+}
+
+h1#headerName:hover, h4:hover {
+    
+    color: maroon;
+    
+    
+}
+
+@keyframes yoda {
+    from {top: -200px;}
+    to {top: -500px;}
+}
+
+img#babyYoda {
+    
+    display: block;
+    position: relative;
+    top: -200px;
+    left: 100px;
+    z-index: -1;
+    animation-name: yoda;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    
+    
+}
+
+
+@keyframes razorCrestFlight {
+    0% {right: -300px; opacity: 0;}
+    25% {opacity: 1;}
+    100% {right: 2000px; opacity: 0;}
+    
+}
+
+img#razorCrest {
+    
+    display: block;
+    opacity: 0;
+    position: relative;
+    top: 20px;
+    right: -300px;
+    animation-name: razorCrestFlight;
+    animation-delay: 10s;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    
+}
+
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 1000px) {
+    
+    img#babyYoda, img#razorCrest {
+        
+        visibility: hidden;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    
+    header {
+        text-align: center;
+    }
+}
