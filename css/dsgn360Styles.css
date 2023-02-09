@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+
+    display: flex;
+}
+
+.col-49 {
+    width: 49%;
+    float: left;
+}
+
+.col-32 {
+    width: 32%;
+   
+}
+
+.right-margin {
+    margin-right: 2%;
+}
+
+nav {
+    margin: 200px 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    background-color: rgb(31, 38, 117);
+    border-right: 1px solid white;
+    padding: 20px;
+    color: white;
+
+}
+
+

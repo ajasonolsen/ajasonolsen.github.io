@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.column {
+    position: relative;
+    padding-bottom: 90px;
+}
+
+div.intro {
+    position: absolute;
+    top: 10em;
+}
+.flex-col-3 {
+
+    display: flex;
+}
+
+.col-49 {
+    width: 49%;
+    float: left;
+}
+
+.col-32 {
+    width: 32%;
+   
+}
+
+.right-margin {
+    margin-right: 2%;
+}
+
+.clear {
+    clear: left;
+}
+
+nav {
+    padding: 200px 0px;
+}
+
+ul {
+    list-style-type: none;
+   
+    
+}
+
+li {
+    
+    background-color: blue;
+    margin: 0;
+    padding: 20px;
+    border-right: solid 1px white;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}

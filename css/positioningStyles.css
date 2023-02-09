@@ -7,36 +7,3 @@
     width: 80%;
     margin: auto;
 }
-
-div.block {
-    width: 30%;
-    height: 30vh;
-    font-size: 300%;
-    text-align: center;
-    color: white;
-    
-    
-}
-
-div.flexContainer {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-
-
-.gutter-right {
-    margin-right: 4%;
-}
-
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
