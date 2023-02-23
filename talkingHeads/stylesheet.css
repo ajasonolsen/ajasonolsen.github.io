@@ -1,0 +1,63 @@
+section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    float:left;
+    width: 11.11%;
+    padding-bottom: 11.11%; /* = width for a 1:1 aspect ratio */
+    margin: 0 0;
+        
+}
+
+.white {
+    background: linear-gradient(135deg, rgb(240,74,14) 50%, rgb(221,224,213) 50%);
+    background-size: auto;
+}
+
+.yellow {
+    background: linear-gradient(135deg, rgb(240,74,14) 50%, rgb(255,209,1) 50%);
+    background-size: auto;
+}
+
+#info-th {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 20%;
+    background-color: rgb(240,75,14);
+    
+}
+
+#info-loc {
+    width: 97%;
+    padding-bottom: 0.5%;
+    padding-left: 3%;
+    background-color: rgb(240,75,14);
+    
+}
+
+#talkingHeads {
+    font-family: roboto, sans-serif;
+    color: rgb(221,224,213);
+    font-size: 4.2em;
+    padding: 10% 0 0 3%;
+}
+
+.gen-info {
+    float: left;
+    font-family: roboto, sans-serif;
+    color: rgb(221,224,213);
+    width: 32%;
+    padding-bottom: 5%;
+    line-height: 1.5em;
+    
+}
+
+.the-shirts {
+    padding-left: 4%;
+}
+
+
+    

@@ -1,0 +1,62 @@
+/* svg native styles */
+
+.cls-1 {
+    fill:#010101; /* bg-black */
+}
+
+.cls-2 {
+    fill:#ee306e; /* fg-pink */    
+}
+
+.cls-3 {
+    fill:#8fc84b; /* yes */
+}
+
+.buffer {
+    margin-top: 200px;
+}
+
+@keyframes yes {
+    from{fill:#8fc84b;}
+    to{fill:yellow;}
+}
+
+#yes .cls-3 {
+    fill:#8fc84b;
+    animation-name: yes;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+#fg-pink .cls-2 {
+    transition: fill 1s;
+}
+
+#fg-pink:hover .cls-2 {
+    fill: orange;
+}
+
+@keyframes blink {
+    from {opacity: 1;}
+    to{opacity: 0;}
+}
+
+#line-right {
+    animation-name: blink;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+}
+
+#line-top {
+    animation-name: blink;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
