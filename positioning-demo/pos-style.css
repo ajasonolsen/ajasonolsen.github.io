@@ -38,15 +38,13 @@
     position: relative;
     top: 4em;
     left: 4em;
-    z-index: -1;
-    
+   
 }
 
 .absolute {
     position: absolute;
     top: 4em;
     right: 4em;
-    z-index: -1;
 }
 
 .sticky {
