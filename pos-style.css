@@ -26,8 +26,8 @@
 
 #wrapper {
     height: 60em;
-    width: 80%;
-    margin: auto;
+    /* width: 80%;
+    margin: auto; */
 }
 
 .height {
@@ -38,6 +38,7 @@
     position: relative;
     top: 4em;
     left: 4em;
+    z-index: -1;
     
 }
 
@@ -45,6 +46,7 @@
     position: absolute;
     top: 4em;
     right: 4em;
+    z-index: -1;
 }
 
 .sticky {
