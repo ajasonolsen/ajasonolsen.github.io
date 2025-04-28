@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Columns */
 
 .columns {float:left;}
@@ -19,15 +24,20 @@
 
 /****************** Positioning *********************/
 
+#wrapper {
+    height: 60em;
+    width: 80%;
+    margin: auto;
+}
+
 .height {
-    height: 25vh;
+    height: 30em;
 }
 
 .relative {
     position: relative;
     top: 4em;
     left: 4em;
-    z-index: -1;
     
 }
 
@@ -35,6 +45,23 @@
     position: absolute;
     top: 4em;
     right: 4em;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left:0;
+    float: none;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+.clear-left {
+    clear: left;
 }
 
 .red {
@@ -64,7 +91,7 @@ p {
 
 div {
     box-sizing: border-box;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 
  
 }
