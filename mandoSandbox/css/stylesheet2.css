@@ -1,0 +1,73 @@
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.1em;
+    color: rgb(0, 51, 102);
+    line-height: 1.5em;
+    margin: 0;
+    padding: auto;
+    
+}
+
+body {
+    background-color: #f2f2f2;
+    background-image: url(../images/subtleGrungeBg.png);
+    background-repeat: initial;
+}
+
+header, footer {
+    text-align: right;
+    padding: 2em;
+    
+}
+
+article p, footer p, hr {
+    margin-top: 2em;
+}
+
+nav, footer {
+    font-size: .7em;
+}
+
+div#bio {
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Coda Caption', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: rgb(51,51,0);
+    text-decoration: underline;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+footer ul {
+    margin-top: 2em;
+    }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a:link {
+   color: rgb(51, 153, 51); 
+}
+
+a:visited {
+    color: rgb(204, 153, 0);
+}
+
+a:hover {
+    color: rgb(0, 204, 0);
+}
