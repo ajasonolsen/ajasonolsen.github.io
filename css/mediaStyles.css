@@ -1,0 +1,28 @@
+body {
+    background-color: #ffff00;
+}
+
+div {
+    width: 50%;
+    height: 300px;
+    background-color:#7fff00;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+
+    body {
+        background-color: #00ffff;
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+
+    div {
+        width: 100%;
+    }
+}
+
+
+
