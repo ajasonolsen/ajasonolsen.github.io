@@ -1,0 +1,16 @@
+.cls-2:hover, .cls-3:hover, .cls-40:hover, .cls-50:hover, #Blaine:hover > .cls-40 {
+	fill: #00b3e6;
+	-webkit-transition-property: fill; /* Safari */
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-property: fill;
+    transition-duration: 1s;
+}
+
+.cls-8:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.cls-7:hover {
+	cursor: pointer;
+}
