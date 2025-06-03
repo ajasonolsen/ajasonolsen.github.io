@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    src: url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Gilda+Display&display=swap") format(url);
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Albert Sans", sans-serif;
+    font-variation-settings: "wght" 900;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: "Albert Sans", sans-serif;
+    font-variation-settings: "wght" 900;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: right;
+}
+
+h4 {
+    color: black;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-variation-settings: "wght" 600;
+}
+
+p {
+    font-size: 12px;
+}
+
+body {
+    font-family: "Albert Sans", sans-serif;
+    color: #fffdfe;
+    font-family: "Albert Sans", sans-serif;
+    font-variation-settings: "wght" 300;
+    margin-left: 0px;
+    padding: 0px; 
+    background-color: #0f0f0f;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 3rem;
+    text-align: right;
+    line-height: 1.5rem;
+}
+
+li {
+    padding-right: 3rem;
+}
+
+a:link {
+    color: #fffdfe
+}
+
+a:visited {
+    color: #fffdfe;
+}
+
+a:hover {
+    color: #8b8b8b;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Images/title-image.png");
+    background-size: cover;
+    mask-image: linear-gradient(180deg, black 80%, transparent 100%);
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    transform: translate(10%, -50%);
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+  
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    color: black;
+}
+  
+/* Style the back side */
+.flip-box-back {
+    transform: rotateY(180deg);
+}
+
+.footer {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+    text-decoration: underline;
+    text-align: left;
+}
+
+#bottomfooter li {
+    display: inline;
+    padding-right: 3rem;
+}
+
+#filler {
+    background-color: black;
+}
+
+.debut {
+    background-color: #B7E1BB;
+    width: fit-content;
+}
+
+.fwh-slide {
+    height: 100vh;
+    background: #96c19b;
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+.fwh-slide--bg-gold {
+    background: #E7B468;
+    color: white;
+}
+
+.fwh-slide p {
+    margin: 0;
+}
+
+#rotation {
+    animation: rotation 15s linear infinite;
+    
+}
+
+@keyframes rotation {
+    100% {transform: rotate(360deg)}
+}
+
+@media (min-width: 550px) {
+    #hero-taylor {
+      width: 100%;
+      max-width: none; 
+    }
+}

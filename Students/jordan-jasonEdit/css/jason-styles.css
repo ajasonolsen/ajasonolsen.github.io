@@ -1,0 +1,18 @@
+h1, img {
+    border: 2px solid black;
+}
+
+#wrapper {
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+
+}
